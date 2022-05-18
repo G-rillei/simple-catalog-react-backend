@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "PRODUCTS" (
+    "id" SERIAL NOT NULL,
+    "name" TEXT NOT NULL,
+    "price" DOUBLE PRECISION NOT NULL,
+    "isActive" BOOLEAN NOT NULL,
+
+    CONSTRAINT "PRODUCTS_pkey" PRIMARY KEY ("id")
+);
